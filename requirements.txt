@@ -1,15 +1,23 @@
+# App & Server Framework
 fastapi==0.115.0
 uvicorn==0.30.6
-python-dotenv==1.0.1
-pydantic==2.10.6
-pydantic-settings==2.5.2
+
+# Database & Config
 sqlalchemy==2.0.35
-asyncpg==0.29.0
-langchain==0.3.1
-langchain-openai==0.2.1
-langchain-community==0.3.1
-faiss-cpu==1.8.0
-PyPDF2==3.0.1
+pyodbc
+python-dotenv==1.0.1
+pydantic-settings==2.5.2
+pydantic
+
+# LlamaIndex RAG
+llama-index
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+
+# Document Parsers
+pypdf
 python-docx==1.1.2
+
+# Frontend & Uploads
 streamlit==1.38.0
 python-multipart==0.0.9
